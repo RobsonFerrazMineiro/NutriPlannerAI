@@ -146,7 +146,7 @@ if st.button("✨ Gerar Meu Cardápio Inteligente!", use_container_width=True):
         # Montar o prompt para a IA
         prompt_partes = [
             "Você é um nutricionista e chef de cozinha virtual especializado em criar cardápios semanais personalizados, chamado NutriPlanner AI.",
-            f"Por favor, crie um plano de refeições detalhado para {dias_semana} dias, incluindo as seguintes refeições: {', '.join(refeicoes_selecionadas)}.",
+            f"Por favor, crie um plano de refeições detalhado para {dias_semana} dias. O cardápio deve incluir APENAS e EXCLUSIVAMENTE as seguintes refeições selecionadas pelo usuário: {', '.join(refeicoes_selecionadas)}. Não inclua nenhuma outra refeição.",
             f"O objetivo principal do usuário é: {objetivo}.",
             f"Preferências alimentares (alimentos que gosta): {preferencias if preferencias else 'Nenhuma específica, mas priorize variedade e sabor.'}.",
             f"Restrições, alergias ou alimentos a evitar: {restricoes if restricoes else 'Nenhuma específica.'}.",
@@ -155,7 +155,7 @@ if st.button("✨ Gerar Meu Cardápio Inteligente!", use_container_width=True):
             "- Balanceado, nutritivo e saboroso.",
             "- Variado, evitando repetições excessivas de pratos principais nos mesmos dias ou dias seguidos, a menos que seja prático (ex: sobras para o almoço do dia seguinte).",
             "- Com sugestões de pratos e preparações que sejam relativamente fáceis ou de complexidade média, adequados para o dia a dia.",
-            "- Para cada refeição, sugira o prato principal e, se aplicável, acompanhamentos ou complementos.",
+            f"- Para cada uma das refeições selecionadas ({', '.join(refeicoes_selecionadas)}), sugira o prato principal e, se aplicável, acompanhamentos ou complementos.",
             "- Se o objetivo for perda de peso ou ganho de massa, tente adequar as sugestões, mas sem prescrever calorias exatas (apenas direcione para alimentos mais leves ou mais proteicos, conforme o caso).",
             "\nApresente o cardápio de forma clara e organizada, dia por dia e refeição por refeição. Use markdown para formatação (negrito para dias e refeições).",
             "Exemplo de formato para cada dia:",
