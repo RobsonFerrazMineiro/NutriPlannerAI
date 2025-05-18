@@ -10,12 +10,19 @@ Aqui estão algumas visualizações do NutriPlanner AI em ação:
 
 <table>
   <tr>
+<td>
 
-**Visualização Mobile (ou Detalhe dos Inputs):** **Interface Principal (Desktop):**
+**Visualização Mobile (ou Detalhe dos Inputs):**
+<img src="assets/screenshot1.png" alt="Interface Mobile" width="250">
 
-<td><img src="assets/screenshot1.png" alt="Interface Mobile" width="250"></td>
+</td>
 
-<td><img src="assets/screenshot2.png" alt="Interface Desktop" width="1000"></td>
+<td>
+
+**Interface Principal (Desktop):**
+<img src="assets/screenshot2.png" alt="Interface Desktop" width="1000">
+
+</td>
 
   </tr>
 </table>
