@@ -1,5 +1,21 @@
 # NutriPlanner AI 🥗
 
+<!-- Badges das Tecnologias Utilizadas -->
+<p align="left">
+  <a href="https://www.python.org/" target="_blank">
+    <img src="https://img.shields.io/badge/Python-0078D4?style=for-the-badge&logo=python&logoColor=FFD43B&labelColor=282C34&color=0078D4" alt="Python Badge" style="border-radius: 8px;"/>
+  </a>
+  <a href="https://streamlit.io/" target="_blank">
+    <img src="https://img.shields.io/badge/Streamlit-FF2968?style=for-the-badge&logo=streamlit&logoColor=white&labelColor=282C34&color=FF2968" alt="Streamlit Badge" style="border-radius: 8px;"/>
+  </a>
+  <a href="https://ai.google.dev/" target="_blank">
+    <img src="https://img.shields.io/badge/Gemini%20API-00CFFF?style=for-the-badge&logo=google&logoColor=white&labelColor=282C34&color=00CFFF" alt="Google Gemini Badge" style="border-radius: 8px;"/>
+  </a>
+  <a href="https://pypi.org/project/python-dotenv/" target="_blank">
+    <img src="https://img.shields.io/badge/python--dotenv-33C481?style=for-the-badge&logo=python&logoColor=white&labelColor=282C34&color=33C481" alt="dotenv Badge" style="border-radius: 8px;"/>
+  </a>
+</p>
+
 Seu Planejador de Cardápio Semanal Inteligente, desenvolvido com Streamlit e a API do Google Gemini.
 
 **Acesse o NutriPlanner AI aqui:** [https://nutriplannerai.streamlit.app/](https://nutriplannerai.streamlit.app/)
