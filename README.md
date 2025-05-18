@@ -8,11 +8,13 @@ Seu Planejador de Cardápio Semanal Inteligente, desenvolvido com Streamlit e a 
 
 Aqui estão algumas visualizações do NutriPlanner AI em ação:
 
+**Visualização Mobile (ou Detalhe dos Inputs)/Interface Principal (Desktop)**
+
 <table>
   <tr>
-<td><strong>Visualização Mobile (ou Detalhe dos Inputs):</strong><img src="assets/screenshot1.png" alt="Interface Mobile" width="250"></td>
+<td><img src="assets/screenshot1.png" alt="Interface Mobile" width="250"></td>
 
-<td><strong>Interface Principal (Desktop):</stron><img src="assets/screenshot2.png" alt="Interface Desktop" width="1000"></td>
+<td><img src="assets/screenshot2.png" alt="Interface Desktop" width="1000"></td>
 
   </tr>
 </table>
