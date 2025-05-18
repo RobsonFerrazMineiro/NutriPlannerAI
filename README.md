@@ -15,7 +15,7 @@ Aqui estão algumas visualizações do NutriPlanner AI em ação:
 
 <td><img src="assets/screenshot1.png" alt="Interface Mobile" width="250"></td>
 
-<td><img src="assets/screenshot2.png" alt="Interface Desktop" width="400"></td>
+<td><img src="assets/screenshot2.png" alt="Interface Desktop" width="800"></td>
 
   </tr>
 </table>
