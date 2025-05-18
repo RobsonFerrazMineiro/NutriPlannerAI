@@ -2,6 +2,8 @@
 
 Seu Planejador de Cardápio Semanal Inteligente, desenvolvido com Streamlit e a API do Google Gemini.
 
+**Acesse o NutriPlanner AI aqui:** [https://nutriplannerai.streamlit.app/](https://nutriplannerai.streamlit.app/)
+
 ## Descrição
 
 O NutriPlanner AI ajuda usuários a criar cardápios semanais personalizados com base em seus objetivos (alimentação saudável, perda de peso, controle de diabetes, etc.), preferências alimentares, restrições e ingredientes disponíveis em casa. Ele também pode fornecer uma lista de compras sugerida.
